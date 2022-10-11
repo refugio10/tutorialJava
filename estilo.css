@@ -1,0 +1,33 @@
+.conceptos{
+ list-style-type: none;
+ margin: 5%;
+}
+.tema{
+    margin-top: 10px;
+}
+.columnaTemas{
+    background: rgb(187, 187, 225);
+    height: 100%;
+}
+p{
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+#imagenJava{
+    float: right;
+}
+.capitulo{
+    font-size: 16pt;
+    
+}
+#cmd{
+    color: white;
+    background: black;
+    height: 30px;
+    width: 30%;
+    padding: 2px;
+    padding-left: 5px;
+
+}

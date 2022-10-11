@@ -1,0 +1,72 @@
+.input-container{
+    width: 280px;
+    margin-top: 50px;
+    position: relative;
+    background-color: #11621f;
+}
+
+.label{
+    width: 280px;
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    font-size: 20px;
+    color: #11621f;
+    margin-left: 405px;
+    margin-top: 100px;
+}
+
+.text-input{
+    padding: 0.8rem;
+    width: 50%;
+    height: 50%;
+    border: 2px solid #2f2c45;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: black;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.label::before{
+    content: "";
+    height: 5px;
+    background: #272530;
+    left: 0px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.text-input:focus{
+    border: 2px solid #e7dbfb;
+}
+
+.text-input:focus + .label, .filled{
+    top: -10px;
+    color: #7e4ccb;
+    font-size: 18px;
+}
+
+.text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.text-input:focus::placeholder{
+    opacity: 1;
+}
+
+.btnRegistrar{
+    border-radius: 20%;
+}
+
+.btnRegistrar{
+    text-align: right;
+}
